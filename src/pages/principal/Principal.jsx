@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import './styles/css/App.css'
-import Menu from './components/Menu';
-import Main from './components/Main';
-import RightBar from './components/RightBar';
+import RightBar from "../../components/RightBar"
+import Menu from "../../components/Menu"
+import Main from "../../components/Main"
 
 
 
