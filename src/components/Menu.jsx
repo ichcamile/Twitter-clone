@@ -13,8 +13,6 @@ import { CgMoreO } from 'react-icons/cg';
 
 
 
-
-
 function Menu() {
     return(
      <aside>
@@ -28,10 +26,10 @@ function Menu() {
         <ItemMenu icon= {<RiFileList3Line/>} name="Lists"/>
         <ItemMenu icon= {<RxPerson/>} name="Profile"/>
         <ItemMenu icon= {<CgMoreO/>} name="More"/>
-
       </ul>
      </aside>
     )
   }
+
 
 export default Menu;

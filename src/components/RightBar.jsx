@@ -2,7 +2,7 @@ import App from '../App';
 
 function RightBar() {
     return(
-     <h1>Seja ussss</h1>
+     <h1> test</h1>
     )
   }
 

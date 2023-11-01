@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  @import url("https://fonts.cdnfonts.com/css/segoe-ui-4");
+  font-family: "Segoe UI", sans-serif;
+}
+
+.Wrapper {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+.Wrapper .menu,
+.Wrapper .main,
+.Wrapper .rightBar {
+  border: 1px solid blue;
+}
+
+/*# sourceMappingURL=principal.css.map */

@@ -1,11 +1,14 @@
 
 
-function ItemMenu({icon, name}) {
-    return(
+function ItemMenu({icon, name }) {
+  return (
     <>
-        <li> {icon} {name} </li>
+      <li>
+        <span className="icon" >{icon}</span>
+        <span className="names" >{name}</span>
+      </li>
     </>
-    )
-  }
+  )
+}
 
 export default ItemMenu;
