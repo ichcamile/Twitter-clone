@@ -1,14 +1,15 @@
 
-import { BiX } from 'react-icons/bi';
+import React from 'react';
 
-function Topics({ title, topic, content, icon }) {
+const Topics = ({ title, topic, content, iconUrl }) => {
     return (
         <div>
             <h1>{title}</h1>
             <hr />
             <h2>{topic}</h2>
             <p> {content}</p>
-            <img>{icon}</img>
+            <contentimg src={iconUrl} alt="topic-icon"/>
+            {iconUrl}
             <button>Follow</button>
             <hr />
             <p>Show more</p>

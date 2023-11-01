@@ -1,8 +1,9 @@
 import App from '../App';
+import Topics from './right-bar/Topics';
 
 function RightBar() {
     return(
-     <h1> test</h1>
+     <Topics></Topics>
     )
   }
 

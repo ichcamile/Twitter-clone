@@ -1,10 +1,10 @@
 
 
-function ItemMenu({icon, name }) {
+function ItemMenu({ iconUrl, name }) {
   return (
     <>
       <li>
-        <span className="icon" >{icon}</span>
+        <span className="iconUrl">{iconUrl}</span>
         <span className="names" >{name}</span>
       </li>
     </>

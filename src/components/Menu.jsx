@@ -17,15 +17,15 @@ function Menu() {
     return(
      <aside>
       <ul className='Menu'>
-        <ItemMenu  icon= {<FiHome/>} name="Home"/>
-        <ItemMenu icon= {<HiOutlineHashtag/>} name="Explore"/>
-        <ItemMenu icon= {<IoIosNotificationsOutline/>} name="Notifications"/>
-        <ItemMenu icon= {<BiEnvelope/>} name="Messages"/>
-        <ItemMenu icon= {<BiBookmark/>} name="Bookmarks"/>
-        <ItemMenu icon= {<BsPeople/>} name="Communities"/>
-        <ItemMenu icon= {<RiFileList3Line/>} name="Lists"/>
-        <ItemMenu icon= {<RxPerson/>} name="Profile"/>
-        <ItemMenu icon= {<CgMoreO/>} name="More"/>
+        <ItemMenu iconUrl= {<FiHome/>} name="Home"/>
+        <ItemMenu iconUrl= {<HiOutlineHashtag/>} name="Explore"/>
+        <ItemMenu iconUrl= {<IoIosNotificationsOutline/>} name="Notifications"/>
+        <ItemMenu iconUrl= {<BiEnvelope/>} name="Messages"/>
+        <ItemMenu iconUrl= {<BiBookmark/>} name="Bookmarks"/>
+        <ItemMenu iconUrl= {<BsPeople/>} name="Communities"/>
+        <ItemMenu iconUrl= {<RiFileList3Line/>} name="Lists"/>
+        <ItemMenu iconUrl= {<RxPerson/>} name="Profile"/>
+        <ItemMenu iconUrl= {<CgMoreO/>} name="More"/>
       </ul>
      </aside>
     )
