@@ -10,7 +10,7 @@ import { RiFileList3Line } from 'react-icons/ri';
 import { RxPerson } from 'react-icons/rx';
 import { BsPeople } from 'react-icons/bs';
 import { CgMoreO } from 'react-icons/cg';
-
+import "./styles/css/menu.css"
 
 
 function Menu() {
