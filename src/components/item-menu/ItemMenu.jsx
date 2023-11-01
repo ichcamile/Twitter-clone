@@ -3,9 +3,9 @@
 function ItemMenu({ iconUrl, name }) {
   return (
     <>
-      <li>
+      <li className="container" >
         <span className="iconUrl">{iconUrl}</span>
-        <span className="names" >{name}</span>
+        <span className="categories" >{name}</span>
       </li>
     </>
   )
