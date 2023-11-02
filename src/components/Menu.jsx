@@ -2,7 +2,7 @@ import { useState } from 'react'
 import App from '../App';
 import ItemMenu from "./item-menu/ItemMenu"
 import { AiFillHome } from 'react-icons/ai';
-import { FiHome } from 'react-icons/fi';
+import { FiHome, FiMoreHorizontal } from 'react-icons/fi';
 import { HiOutlineHashtag } from 'react-icons/hi';
 import { MdOutlineNotifications, MdOutlinePeopleOutline} from 'react-icons/md';
 import { BiEnvelope, BiBookmark} from 'react-icons/bi';
@@ -11,6 +11,7 @@ import { RxPerson } from 'react-icons/rx';
 import { BsPeople, BsTwitter } from 'react-icons/bs';
 import { CgMoreO } from 'react-icons/cg';
 import "./styles/css/menu.css"
+import Profile from './item-menu/Profile';
 
 
 function Menu() {
@@ -28,6 +29,9 @@ function Menu() {
         <ItemMenu iconUrl= {<RxPerson/>} name="Profile"/>
         <ItemMenu iconUrl= {<CgMoreO/>} name="More"/>
       </ul>
+      <button className='tweetbutton'> Tweeet</button>
+     
+     <Profile namep="Vitor Moutim" user="@amoMinhaMulher" symbol= {<FiMoreHorizontal/>}  ></Profile>
      </aside>
     )
   }

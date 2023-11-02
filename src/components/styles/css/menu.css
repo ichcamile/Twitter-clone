@@ -1,5 +1,8 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+
+
 .iconUrl {
-    font-size: 30px;
+    font-size: 22px;
     margin-right: 5px;
     margin-left: 15px;
 
@@ -7,36 +10,76 @@
 }
 
 .categories {
-    margin-bottom: 8px;
-    font-size: 27px;
+    margin-bottom: 4px;
+    font-size: 20px;
+
+
 }
 
 .container {
     display: flex;
     align-items: center;
-    margin-top: auto;
+    max-width: 95%;
 }
 
 .iconBlue {
     font-size: 45px;
     color: #1DA1F2;
-    margin: 55px;
-
-
-
+    margin: 70px 70px 70px 90px;
 }
 
 .selectPage {
-   margin-top: 15px;
+    margin-top: 15px;
     font-size: 40px;
     color: #1DA1F2;
 }
 
 li {
-    margin-bottom: 25px;
+    margin: 15px;
     box-sizing: border-box;
-    border: solid #1DA1F2 1px;
+    border: solid #E7E7E8 1px;
     border-radius: 100px;
-   
+    width: 100%;
+    cursor: pointer;
+    font-size: 80%;
+
+
 }
 
+.tweetbutton {
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 60px;
+    padding: 15px 35px;
+    width: 80%;
+    height: 10%;
+    background-color: #1DA1F2;
+    border-radius: 24px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.tweetbutton:hover {
+    background-color: #1e6ea5;
+    /* Cor mais escura quando o mouse paira sobre o botão */
+}
+
+li:hover {
+    background-color: #E7E7E8;
+}
+
+
+
+.profileContainer, .profileSecond, .profileSymbol{
+ display: inline-block;
+}
+
+.profileContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+
+    
+}
