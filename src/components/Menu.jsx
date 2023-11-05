@@ -11,7 +11,7 @@ import { RxPerson } from 'react-icons/rx';
 import { BsPeople, BsTwitter } from 'react-icons/bs';
 import { CgMoreO } from 'react-icons/cg';
 import "./styles/css/menu.css"
-import Profile from './item-menu/Profile';
+import Profile from './profile/Profile';
 import girlfriend from "../assets/profile-pic.png"
 
 function Menu() {
