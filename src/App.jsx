@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Principal from './pages/principal/principal';
+import Principal from "./pages/principal/Principal";
 
 
 

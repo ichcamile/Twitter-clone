@@ -1,6 +1,7 @@
+import React from 'react'
 
 
-function ItemMenu({ iconUrl, name }) {
+const ItemMenu = ({ iconUrl, name }) => {
   return (
     <>
       <li className="container" >

@@ -1,36 +1,54 @@
-import { useState } from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { HiOutlineEmojiHappy } from 'react-icons/hi';
+import { ImImage } from 'react-icons/im';
+import { AiOutlineFileGif } from 'react-icons/ai';
+import { BiBarChart, BiCalendar } from 'react-icons/bi';
+import { MdPublic } from 'react-icons/md';
+import { FiSettings } from 'react-icons/fi';
 
 
-function Tweet(photo, iconStar, imageSymbol, gifSymbol, lines, emojiSymbol, calendarSymbol,tweetWrite, whoReply, worldSymbol) {
+import "./tweet.css"
+
+
+
+const Tweet = ({ girlfriend, tweetWrite, whoReply }) => {
     return (
-        <div>
+        <div className='tweet'>
             <div className='topTweet'>
-                <h2>Home</h2>
-                <span>{iconStar}</span>
-            </div>
-            <hr/>
-            <div>
-            <img className='profilePic' src={photo} alt='profilePic'></img>
-                <div>
-                    <h3>{tweetWrite}</h3>
+                <h2>For you</h2>
+                <h2>Following</h2>
+                <div>{<FiSettings />}</div>
+            <div />
+                <hr />
+                <div className='middleTweet'>
+                    <img className='profilePic' src={girlfriend} alt='profilePic' />
                     <div>
-                        <span>{worldSymbol}</span>
-                        <p>{whoReply}</p>
+                        <p>{tweetWrite}</p>
+                        <div className='replyTweet'>
+                            <div>{<MdPublic />}</div>
+                            <p>{whoReply}</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <span>{imageSymbol}</span>
-                <span>{gifSymbol}</span>
-                <span>{lines}</span>
-                <span>{emojiSymbol}</span>
-                <span>{calendarSymbol}</span>
+                <div className='icons'>
+                    <div>{<ImImage />}</div>
+                    <div>{<AiOutlineFileGif />}</div>
+                    <div>{<BiBarChart />}</div>
+                    <div>{<HiOutlineEmojiHappy />}</div>
+                    <div>{<BiCalendar />}</div>
+                </div>
             </div>
         </div>
     )
 }
 
-export default Tweet
+Tweet.propTypes = {
+    girlfriend: PropTypes.string.isRequired,
+    tweetWrite: PropTypes.string.isRequired,
+    whoReply: PropTypes.string.isRequired,
+
+};
 
 
-
+export default Tweet;

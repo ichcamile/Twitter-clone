@@ -1,7 +1,6 @@
-
 import React from 'react';
 
-const Topics = ({ title, topic, content, iconUrl }) => {
+const Topics = ({ title, topic, content, iconUrl}) => {
     return (
         <div>
             <h1>{title}</h1>

@@ -13,5 +13,4 @@ const Profile = ({ photo, namep, user, symbol }) => {
     )
 }
 
-
 export default Profile;
