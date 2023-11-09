@@ -1,8 +1,9 @@
 import React from 'react'
 import { AiOutlineHeart, AiFillHeart } from 'react-icons/ai';
+import girlfriend from "../../assets/profile-pic.png"
 
 
-function Posted(name) {
+function Posted({ name, username, nickname, time }) {
   return (
     <div>
       <header>
@@ -12,20 +13,21 @@ function Posted(name) {
       <aside>
         <img className='profilePic' src={girlfriend} alt='profilePic' />
       </aside>
-      <main></main>
+      <div>
+        <div>
+          <h2>{username}</h2>
+          <p>{nickname}</p>
+          <div></div>
+          <p> {time} min</p>
+          <div></div>
+        </div>
+        <div>
+
+        </div>
+      </div>
 
     </div>
   )
 }
 
 export default Posted;
-<div className='middleTweet'>
-  <img className='profilePic' src={girlfriend} alt='profilePic' />
-  <div>
-    <p>{tweetWrite}</p>
-    <div className='replyTweet'>
-      <div>{<MdPublic />}</div>
-      <p>{whoReply}</p>
-    </div>
-  </div>
-</div>
