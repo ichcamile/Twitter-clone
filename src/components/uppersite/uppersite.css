@@ -1,0 +1,18 @@
+*{
+ margin: 0;
+}
+
+.uppersite{
+    display: flex;
+    
+}
+.uppertopics{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.setting{
+    display: flex;
+    justify-content: end;
+}
