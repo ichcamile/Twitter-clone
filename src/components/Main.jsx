@@ -15,7 +15,13 @@ function Main() {
         tweetWrite="Olá, esse é o meu primeiro tweet"
         whoReply="Everyone can reply"/>
         <hr/>
-      <Posted/>
+      <Posted
+      name={"Gabriel Lindo Augusto"}
+      username={"Camile"}
+      nickname={"@ichcamile"}
+      time={"10"}
+      
+      />
     </>
   )
 }

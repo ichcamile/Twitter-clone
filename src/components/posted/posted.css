@@ -1,0 +1,30 @@
+.posted{
+    border: 1px solid black;
+}
+
+
+.headerPosted{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color:#5B7083;
+}
+
+.headerPosted p{
+    margin-bottom: 5px;
+}
+
+.secondHeader{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.teste{
+    display: flex;
+    align-items: center;
+}
+
+.teste img{
+    width: 250px;
+}
