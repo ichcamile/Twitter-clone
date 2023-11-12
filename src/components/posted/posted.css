@@ -1,5 +1,6 @@
 .posted{
-    border: 1px solid black;
+    border: 1px solid #5B7083;
+    margin-bottom: 30px;
 }
 
 
@@ -9,6 +10,8 @@
     gap: 7px;
     color:#5B7083;
 }
+
+
 
 .headerPosted p{
     margin-bottom: 5px;
@@ -27,4 +30,11 @@
 
 .teste img{
     width: 250px;
+}
+
+
+.icons{
+    display: flex;
+    width: 30px;
+    color: #5B7083;
 }
