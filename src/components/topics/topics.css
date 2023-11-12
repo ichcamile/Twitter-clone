@@ -1,0 +1,15 @@
+.topicsGeneral {
+    background-color: #F7F9FA;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.03);
+    border: solid #5b70834c;
+}
+
+.topicHeader {
+    display: center;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 400;
+
+
+}

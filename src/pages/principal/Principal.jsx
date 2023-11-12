@@ -1,7 +1,7 @@
 import React from 'react'
-import RightBar from "../../components/RightBar"
-import Menu from "../../components/Menu"
-import Main from "../../components/Main"
+import RightBar from "../../components/rightBar/RightBar"
+import Menu from "../../components/menu/Menu"
+import Main from "../../components/main/Main"
 import "./principal.css"
 
 

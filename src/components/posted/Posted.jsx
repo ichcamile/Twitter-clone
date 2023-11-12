@@ -13,47 +13,38 @@ function Posted({ name, username, nickname, time, contentTweet }) {
     <div className='posted'>
 
       <header className='headerPosted'>
-        <AiFillHeart />
+        <span><AiFillHeart /></span>
         <p>{name} liked</p>
       </header>
 
       <div className='content'>
-        <aside>
-          <img className='profilePic' src={girlfriend} alt='profilePic' />
+        <aside className='photoAside'>
+          <img className='profilePosted' src={girlfriend} alt='profilePic' />
         </aside>
+        <div className='main'>
 
-
-
-      </div>
-
-      <div className='main'>
-
-        <div className='secondHeader'>
+          <div className='secondHeader'>
             <h2>{username}</h2>
             <p>{nickname}</p>
             <div><PiDotBold /></div>
             <p> {time} min</p>
-        </div>
+          </div>
 
-        <div>
+          <div className='contentTweet'>
             <p>{contentTweet}</p>
+          </div>
         </div>
-        
-        <hr/>
 
 
+       
+      </div>
+      <hr />
         <div className='icons'>
-          <div><LuMessageSquare/></div>
-          <div><AiOutlineRetweet/></div>
-          <div><AiFillHeart/></div>
-          <div><FiUpload/></div>
-      </div>
-      </div>
-
-
-
-      
-
+          <div className='itemIcon' ><LuMessageSquare /><p>5</p></div>
+          <div className='itemIcon'><AiOutlineRetweet /><p>10</p></div>
+          <div className='itemIcon'><AiFillHeart /><p>7</p></div>
+          <div className='itemIcon'><FiUpload /><p>8</p></div>
+        </div>
 
 
     </div>

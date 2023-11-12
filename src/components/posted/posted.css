@@ -1,20 +1,22 @@
 .posted{
-    border: 1px solid #5B7083;
-    margin-bottom: 30px;
+    border: 1px solid #EBEEF0;
+    padding: 15px;
 }
-
 
 .headerPosted{
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 10px;
     color:#5B7083;
 }
 
-
-
-.headerPosted p{
-    margin-bottom: 5px;
+.headerPosted p {
+    padding-bottom: 7px;
+}
+.headerPosted span{
+    font-size: 22px;
+    color:red;
+    margin-left: 10px;
 }
 
 .secondHeader{
@@ -23,18 +25,51 @@
     gap: 1px;
 }
 
-.teste{
+.content{
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.profilePosted{
+max-width: 100%;    
+}
+
+hr{
+    max-width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+   
+}
+
+.icons{
+    font-size: 15px;
+    color:red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+
+}
+
+.itemIcon{
+    cursor: pointer;
+    display: flex;
+    justify-content: baseline;
     align-items: center;
 }
 
-.teste img{
-    width: 250px;
+.photoAside{
+    max-width: 10%;
+    padding-right: 2%;
 }
 
-
-.icons{
+.contentTweet{
+    max-width: 950%;
     display: flex;
-    width: 30px;
-    color: #5B7083;
+    align-items: center;
+    justify-content: center;
 }
