@@ -2,7 +2,8 @@ import React from 'react'
 import App from '../../App';
 import Tweet from "../tweet/Tweet"
 import profilePic from '../profile/Profile';
-import girlfriend from "../assets/profile-pic.png";
+import girlfriend from "<div styleName="" />
+<div styleName="" />assets/profile-pic.png";
 import Uppersite from '../uppersite/Uppersite';
 import Posted from '../posted/Posted';
 import Topics from '../topics/Topics';
